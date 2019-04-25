@@ -1,0 +1,26 @@
+{
+    "window.zoomLevel": 0,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 14,
+    "editor.largeFileOptimizations": false,
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "files.autoGuessEncoding": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "python.pythonPath": "/Users/moriyama/.pyenv/shims/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305",
+    ],
+    "python.linting.mypyEnabled": false,
+    "kite.editorMetricsEnabled": "yes",
+    "kite.showDocsNotificationOnStartup": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "python.linting.pylintArgs": [
+        "--generated-members=numpy.* ,torch.*"
+        ],
+}
